@@ -1,0 +1,68 @@
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Hind Madurai', sans-serif;
+    transition: all .3s ease-in-out;
+}
+
+body {
+    background: #f9f9f9;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%; 
+    margin: 0px auto; 
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #212121;
+}
+main .introduction {
+    flex: 1; 
+}
+main .introduction * {
+    margin: 10px 0px; 
+}
+main .highlight-bold {
+    font-weight: bold;
+}
+main .cover {
+    flex:1.5; 
+}
+main .cover img {
+    max-width: 100%;
+}
+
+main .introduction .intro-description {
+    color: #212121;
+}
+
+span.highlighted {
+    color: #EF4658; 
+}
+
+main .introduction .cta {
+    background: #212121;
+    color: white;  
+    width: fit-content;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-top: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+a.button {
+    text-decoration: none; 
+    color: #f9f9f9;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+}
